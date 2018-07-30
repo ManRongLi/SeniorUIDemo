@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+    <corners android:radius="5dip" /><!-- 边角圆弧的半径 -->
+    <solid android:color="@color/gainsboro" /><!-- 背景的填充颜色 -->
+</shape>

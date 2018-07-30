@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".OvalActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="1"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bg_oval_with_solid" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="2"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bg_oval_with_size" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="3"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bg_oval_with_padding" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="4"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bg_oval_with_stroke" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="5"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bg_oval_with_stroke_dash" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="6"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bg_oval_with_stroke_nosolid" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:text="7"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bg_oval_with_gradient" />
+</LinearLayout>
